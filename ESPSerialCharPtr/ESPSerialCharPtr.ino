@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 #define BUFFERSIZE 512
 
 char commandBuffer[BUFFERSIZE]; 

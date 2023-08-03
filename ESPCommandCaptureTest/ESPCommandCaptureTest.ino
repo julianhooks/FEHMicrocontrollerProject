@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 String responseBuffer = "";
 String commandBuffer = "";
 

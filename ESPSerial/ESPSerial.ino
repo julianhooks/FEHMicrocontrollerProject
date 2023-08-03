@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 //Initialize to empty since they're appended rather than set
 String commandBuffer = ""; 
 String responseBuffer = "";

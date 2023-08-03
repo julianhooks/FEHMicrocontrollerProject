@@ -1,7 +1,3 @@
-#include <LiquidCrystal.h>
-
-LiquidCrystal lcd(36,37,38,39,40,41,42,43,44,45,46);
-
 //Initialize to empty since they're appended rather than set
 String commandBuffer = ""; 
 String responseBuffer = "";
@@ -14,10 +10,6 @@ void setup() {
   //Open Serial connection to ESP8266 module
   Serial1.begin(115200);
   while(!Serial1);
-
-  //Initialize LCD screen
-  lcd.begin(16,2);
-  lcd.autoscroll();
 }
 
 void loop() {

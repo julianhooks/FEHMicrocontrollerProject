@@ -1,5 +1,3 @@
-#include <SparkFunESP8266WiFi.h>
-
 /************************************************************
 ESP8266_Ping.h
 SparkFun ESP8266 AT library - Ping Demo
@@ -31,7 +29,7 @@ char destServer[] = "10.42.0.1";
 
 void setup() 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (esp8266.begin() != true)
   {
     Serial.print("Error connecting to ESP8266.");

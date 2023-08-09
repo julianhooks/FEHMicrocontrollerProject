@@ -1,4 +1,4 @@
-24177785603589560
+24187935165940885
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64994,6 +64994,27 @@ https://www.addicore.com/Pro-Mini-p/ad249.htm
 0
 29
 29
+PCM_footprints
+TPS564242DRLR_TEX
+
+TPS564242DRLR 
+0
+6
+6
+PCM_footprints
+TPS564242DRLR_TEX-L
+
+TPS564242DRLR 
+0
+6
+6
+PCM_footprints
+TPS564242DRLR_TEX-M
+
+TPS564242DRLR 
+0
+6
+6
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -84399,16 +84420,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Sparkfun Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 Sparkfun Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -100414,3 +100435,24 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+footprints
+TPS564242DRLR_TEX
+
+TPS564242DRLR 
+0
+6
+6
+footprints
+TPS564242DRLR_TEX-L
+
+TPS564242DRLR 
+0
+6
+6
+footprints
+TPS564242DRLR_TEX-M
+
+TPS564242DRLR 
+0
+6
+6

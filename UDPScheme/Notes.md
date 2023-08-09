@@ -12,4 +12,4 @@ UDP Broadcasting over a network is not supported in IPv6, so you must multicast 
 
 [Relevant Stack Overflow Link](https://stackoverflow.com/questions/64066634/sending-broadcast-in-python)
 
-Python seems like the most natural choice for setting thisup, since it's fast and the sockets API seems simple.
+Python seems like the most natural choice for setting this up, since it's fast and the sockets API seems simple.

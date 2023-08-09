@@ -7,3 +7,9 @@ Each Arduino has an ESP that is running custom firmware, written with the Arduin
 Although the serial communication to set this up each run might be a hassle to work the kinks out of, this eliminates the need to safety check any of the Arduino libraries for things that would mess up an on-chip looping solution. By using UDP Broadcasting on a private network, both the server and the ESP can run much less code and not risk sacrificing the speed of either system.
 
 The cost of this solution is losing out on either a PWM pin or a Serial port, as well as the time/labor cost of writing the ESP-side firmware.
+
+UDP Broadcasting over a network is not supported in IPv6, so you must multicast to all clients on a network. Since there is no control on which IP address is assigned to which robot on each course, this approach is preferable to sending packets to individual IPs. In this scheme, the port will be the distinguishing factor of each packet for each course, and the port will be opened during course selection on the robot.
+
+[Relevant Stack Overflow Link](https://stackoverflow.com/questions/64066634/sending-broadcast-in-python)
+
+Python seems like the most natural choice for setting thisup, since it's fast and the sockets API seems simple.
